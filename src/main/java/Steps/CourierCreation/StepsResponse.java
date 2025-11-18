@@ -1,4 +1,4 @@
-package Steps;
+package Steps.CourierCreation;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;

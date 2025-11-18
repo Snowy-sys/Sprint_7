@@ -1,4 +1,4 @@
-package Steps;
+package Steps.CourierCreation;
 
 import BaseClass.RestBaseClass;
 import PojoModels.CourierCreationPojo;
@@ -83,9 +83,5 @@ public class PostMainSteps extends RestBaseClass {
         }
     }
 
-    @Step("Вывод ответа в консоль")
-    public void printResponseBodyToConsole(Response response){
-        System.out.println(response.body().asString());
-    }
 
 }

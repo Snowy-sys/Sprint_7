@@ -1,3 +1,5 @@
+package PojoModels;
+
 public class CourierCreationPojo {
 
     private String login;
@@ -11,6 +13,11 @@ public class CourierCreationPojo {
     }
 
     public CourierCreationPojo() {
+    }
+
+    public CourierCreationPojo(String login, String password) {
+        this.login = login;
+        this.password = password;
     }
 
     public String getLogin() {
