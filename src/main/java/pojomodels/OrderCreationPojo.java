@@ -1,0 +1,24 @@
+package pojomodels;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class OrderCreationPojo {
+
+    private String firstName;
+    private String lastName;
+    private String address;
+    private int metroStation;
+    private String phone;
+    private int rentTime;
+    private String deliveryDate;
+    private String comment;
+    private String[] color;
+}
+
